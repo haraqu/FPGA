@@ -1,7 +1,7 @@
 current_dir := ${CURDIR}
-TOP := dff_sync_reset
+TOP := d_ff
 
-SOURCES := ${current_dir}/dff_sync_reset.v
+SOURCES := ${current_dir}/d_ff.v
 
 ifeq ($(TARGET),arty_35)
 ifdef F4PGA_USE_DEPRECATED
